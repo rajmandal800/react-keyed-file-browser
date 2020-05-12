@@ -25,15 +25,7 @@ class Detail extends React.Component {
 
     return (
       <div>
-        <h2>Item Detail</h2>
-        <dl>
-          <dt>Key</dt>
-          <dd>{this.props.file.key}</dd>
-
-          <dt>Name</dt>
-          <dd>{name}</dd>
-        </dl>
-        <a href="#" onClick={this.handleCloseClick}>Close</a>
+        
       </div>
     )
   }
